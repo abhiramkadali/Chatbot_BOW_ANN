@@ -1,0 +1,168 @@
+{"faq": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through the US Talent Referral Program policies", "I offer support to our professionals on the referral program", "I can help you with answers to your queries related to Talent Referral Program"],
+         "context": [""]
+        },
+        {"tag": "referral_status",
+         "patterns": ["How to check my referral status", "How can I know my referral status", "I'm not receiving referral status communications", "Can I know my referral status?","I want to know the status of one of my referrals"],
+         "responses": ["If you submitted your referral in the system, you should be receiving status emails from ustalentreferralprogram@deloitte.com. Else, please reach out to ustalentreferralprogram@deloitte.com, to know your referral status."],
+         "context": [""]
+        },
+        {"tag": "referral_status_1",
+         "patterns": ["I want to check my referral status", "I referred a candidate and I want know my referral status", "May I know the status of a referral I made", "I wanted to check on the status of the referral bonus","I was wondering if my referral was recorded or been tracked","Wanted to inquire about the bonus pay out for candidate"],
+         "responses": ["Please reach out to ustalentreferralprogram@deloitte.com with candidate's full name and email addresses [both personal email and Deloitte email (if hired)], so that the team can quickly retrieve the information for you."],
+         "context": [""]
+        },
+        {"tag": "bonus_eligibility_1",
+         "patterns": ["My referral started with the firm, so I wanted to check in on my referral eligibility and bonus", "I submitted a referral, will I be eligible for referral bonus", "when will I receive my referral bonus","When are cash awards distributed to U.S. employees for U.S. referrals?"],
+         "responses": ["Thank you for your referral. The review of the referral eligibility will be initiated at the time of the referral starting. The bonus award will be processed after the payment is reviewed and approved."],
+         "context": [""]
+        },
+        {"tag": "bonus_eligibility_2",
+         "patterns": ["Am I eligible for enhanced or additional referral bonus  and how can I get that paid"],
+         "responses": ["Eligibility for payment of the enhanced/additional referral bonus will be based on the guidelines of the applicable referral campaign for that specific Business. Award payments under these campaigns are subject to the respective recruiting lead’s approval. Please reach out to either the recruiter or TRP (Talent Referral Program) team to know more information about the campaign. Please send the campaign email along, when you reach out to the TRP team"],
+         "context": [""]
+        },
+        {"tag": "program_1",
+         "patterns": ["How long will talent referrals stay on file at Deloitte?"],
+         "responses": ["Once the candidate clicks on the generated link the candidate profile will be automatically added to and will remain in our national candidate database. Referrals will be credited to the respective employee six months from the date of receipt.","Your referral will stay active in the system for 6 months"],
+         "context": [""]
+        },
+        {"tag": "program_2",
+         "patterns": ["Which candidates do not qualify for the Talent Referral Program?","Who are ineligible for the referral program?","Which candidates are ineligible for TRP?", "Who are not eligible for referral program?"],
+         "responses": ["1.  Graduate or undergraduate students hired through the Campus Recruiting Process (see above). || 2.  Individuals hired for an 'experienced' position within six months of completing a graduate degree and do not have any other professional experience. || 3.  Candidates who have already been submitted to the firm by another employee, search firm or the candidate being submitted is already active in the recruiting process. Please remember candidates may not be solicited from Deloitte clients. || 4. Deloitte employees who have worked for a client are not permitted to submit referrals from that client for 2 years after leaving the client and joining Deloitte. || 5.  Current employees (full-time, part-time or temporary) of any member firm, independent contractors or temporary agency personnel will not be considered as referrals. "],
+         "context": [""]
+        },
+        {"tag": "program_3",
+         "patterns": ["I'm not able to submit my referral","The referral site is closing on me", "I don't think I submitted my referral correctly","I need help with my referral submission"],
+         "responses": ["Can you please provide the name and email addresses of your referral to the referral program team @ustalentreferralprogram@deloitte.com"],
+         "context": [""]
+        },
+        {"tag": "client_status_1",
+         "patterns": ["Can a Deloitte employee submit a candidate who is currently employed by a Deloitte client as a talent referral?","Can I submit a referral from Deloitte client"],
+         "responses": ["Yes. Candidates currently employed by Deloitte clients can be submitted as referrals. Under the US Talent Referral Program, the referrer is not eligible to receive a bonus if referral is employed by an Attest client. Bonus Eligibility for candidates coming from Relationship clients are subject to LCSP approval. Please check your referral's last employer's status using the link here <https://desc.deloitteresources.com/DESC/Home.aspx>"],
+         "context": [""]
+        },
+        {"tag": "client_status_2",
+         "patterns": ["How do I know if my referral is from a client","How can I check the client status myself"],
+         "responses": ["You can check if your referral's previous employer is Deloitte Client using Deloitte Entity Search and Compliance (DESC) page in DeloitteNet. Link: <https://desc.deloitteresources.com/DESC/Home.aspx>"],
+         "context": [""]
+        },
+        {"tag": "client_status_3",
+         "patterns": ["What are Restricted Entities or Attest Clients","Can you tell me what are attest or restricted clients"],
+         "responses": ["Entities from which Deloitte professionals must remain independent based on DTTL policies, local rules, accepted practices, or client requirements. Restricted entities include applicable DTTL member firm attest clients and their affiliates. Bonus awards cannot be paid for referrals from Restricted entities even with/without LCSP approval. Please check your referral's last employer's status using the link here <https://desc.deloitteresources.com/DESC/Home.aspx>"],
+         "context": [""]
+        },
+        {"tag": "client_status_4",
+         "patterns": ["What are relationship clients", "who are our relationship clients"],
+         "responses": ["entities for which a DTTL member firm provides (or has targeted to provide) non-assurance services and to which Deloitte professionals cannot provide services requiring independence. Referrals from Relationship entities would require LCSPs approval to pay the referral bonus. Please check your referral's last employer's status using the link here <https://desc.deloitteresources.com/DESC/Home.aspx>"],
+         "context": [""]
+        },
+        {"tag": "program_3",
+         "patterns": ["Can I submit a former employee of the Deloitte U.S. Firms, DTTL or another one of its member firms as a qualifying talent referral?"],
+         "responses": ["Yes. Referrals of former DTTL or any member firm's employees and partners (including the U.S.Firms') qualify as talent referrals for the program if the period of separation is 6 months or more."],
+         "context": [""]
+        },
+        {"tag": "program_4",
+         "patterns": ["Can I submit a referral while on a Leave of Absence?"],
+         "responses": ["Yes.  However any referral award payments to an employee for a successful referral hire will be paid if, and when, the referring employee returns from his/her Leave of Absence, if all other conditions have been met."],
+         "context": [""]
+        },
+        {"tag": "program_5",
+         "patterns": ["What is the U.S. Talent Referral Program?", "what is this program about?"],
+         "responses": ["The U.S. Talent Referral Program is a recruitment program that encourages and compensates eligible employees for referring qualified candidates who receive and accept offers with the U.S. or India/U.S. firm. The scope of the U.S. Talent Referral Program includes positions for our India/U.S. locations. India/U.S. employees can submit referrals to U.S. positions and U.S. employees can submit referrals for India/U.S. positions. Please note that the U.S. Talent Referral Program does not include positions with Deloitte Haskins and Sells, the Deloitte Touche Tohmatsu Limited member firm. This includes DTTS positions."],
+         "context": [""]
+        },
+        {"tag": "program_6",
+         "patterns": ["Is there a limit as to how many referrals I can submit?","limit to referrals","referrals limit"],
+         "responses": ["No. There is no limit."],
+         "context": [""]
+        },
+        {"tag": "program_7",
+         "patterns": ["How does the U.S. Talent Referral Program work?"],
+         "responses": ["Employees are responsible for submitting a referral and creating a candidate profile online via the Talent Referral Program link provided on DeloitteNet. The candidate profiles are automatically updated and will remain in the national candidate database for six (6) months from the date of receipt. The candidate profile will be affiliated with the applicable requisition for immediate access and will be reviewed by the requisition owner and/or delegates for a specific position. The candidate will be able to apply for additional positions on Deloitte.com and the referral will still be attached to that candidate for the 6-month eligibility period. After 6 month the referral will expire, but the employee can go back in and refer the candidate again to refresh the eligibility period for another 6 months."],
+         "context": [""]
+        },
+        {"tag": "program_8",
+         "patterns": ["What General Source should I select when completing the candidate referral profile?","Referral source to be selected"],
+         "responses": ["Please indicate the General source 'Referral' when selecting source type in the General field on the Candidate Referral."],
+         "context": [""]
+        },
+        {"tag": "cash_awards_1",
+         "patterns": ["What cash awards are offered in the U.S. Talent Referral Program for U.S. referrals?","Referral cash awards", "referral bonus awards","referral amounts"],
+         "responses": ["Associate Levels 1-3 (Project and Center) / Administrative Levels 1-3 / Paraprofessional /  Solutions Associate / Project Engineer 3 / Project Delivery Coordinator $500 || Experienced Analyst / Consultant / Senior Consultant/ Associate Levels 4-6 / Senior Specialists / Administrative Level 4 - $1,000 || Associate Level 7 and 8 (Project and Center) / Solution Manager - $2,000 || Senior Manager/Specialist Leader / Administrative Levels 6-7 / Associate 9 (Project and Center) / Senior Solution Manager - $4,000 || Partner / Principal / Firm Director - $7,000"],
+         "context": [""]
+        },
+        {"tag": "special_case_1",
+         "patterns": ["Can a referral award be split or paid out to two separate Deloitte employees?","Can referral bonus be split between two or more people"],
+         "responses": ["In general referral awards are paid to the employee who is documented as first submitting the candidate as a qualified referral. Proper submission and exact referral date is verified through the recruiting system. If documentation is presented to the Talent Referral Program requesting that a bonus be split, the Talent Referral Program Managers will review the case and make the final decision."],
+         "context": [""]
+        },
+        {"tag": "special_case_2",
+         "patterns": ["Can a Deloitte employee submit a referral while on global deployment?","Can I submit a referral while on global deployment?","Can I submit a referral while on temporary global assignment?","Can I submit a referral while on temporary assignment in US?"],
+         "responses": ["Yes. While on global deployment with a member firm, Deloitte Us employees are eligible to submit referrals if they are still on US firm payroll. The process will follow the TRP or Alumni Referral process for validation and eligibility."],
+         "context": [""]
+         },
+         {"tag": "special_case_3",
+         "patterns": ["What is the eligibility criteria for the talent referral program","eligibility criteria","eligibility to the referral program", "Who are eligible to submit referrals", "I'm from Talent, am I eligible for referral program","Who could submit referrals to the program"],
+         "responses": ["In general, all employees of the Deloitte US Firm, Deloitte Touche Tohmatsu Services Inc (DTTS) and India/US, referring to eligible US and India/US positions.  All talent professionals are eligible unless they have decision-making authority with respect to the hiring decision.Family members (including spouses), Non-US citizens.Candidates who have accepted offers but have not yet started are eligible to submit referrals and received bonuses (once they become employees)"],
+         "context": [""]
+         },
+         {"tag": "special_case_4",
+         "patterns": ["Can I submit a referral of my family member","Are family member referrals eligible for the program?","Am I eligible for bonus award if I submit referral of a family member"],
+         "responses": ["Yes. Family members (including spouses) are eligible for the referral program", "Yes, It is Deloitte policy that a family member should not supervise another family member."],
+         "context": [""]
+         },
+         {"tag": "special_case_4",
+         "patterns": ["Can I submit a referral of my family member","Are family member referrals eligible for the program?"],
+         "responses": ["Yes. Family members (including spouses) are eligible for the referral program"],
+         "context": [""]
+         },
+         {"tag": "special_case_5",
+         "patterns": ["I referred a candidate to the system, but I haven't received my referral bonus yet","I have not received my bonus yet"],
+         "responses": ["If you have not received the standard referral bonus yet, it could be due to the following reasons,||1. It is Work-In-Progress (TRP team submits paycheck report to payroll team 2 weeks prior to the paycheck date)||2. Referral Candidate has not completed 30 days yet.||3. Needed additional approvals due to the active client conflict.||4.  Referral Information not correctly updated in the system.||5. Ineligible to receive referral bonus (ref. 1.2. Eligibility Criteria)||6. Cost Center/Charge Code discrepancy.7. Please contact TRP team, if required additional information."],
+         "context": [""]
+         },
+         {"tag": "special_case_6",
+         "patterns": ["I am trying to refer a candidate to a job posting that is posted on our external website however I do not find the same job posting on the portal where we can refer candidates.", "cannot find the job posting in our website"],
+         "responses": ["Please be informed that only referral program eligible positions are listed in the referral website. Can you please reach out to ustalentreferralprogram@deloitte.com along with the requisition ID/number. They will be able to help you"],
+         "context": [""]
+         },
+         {"tag": "campus_internship_1",
+         "patterns": ["Can I submit a referral for Campus role", "Can I submit referrals to Internship role","Can you provide the point of contacts for Campus or internship referrals","recruiting contacts for Campus or internship referrals","whom can I contact for campus referrals", "whom can I contact for internship referrals","campus or internship referral contacts"],
+         "responses": ["Any referral, regardless of their background, that is hired through the Campus Recruiting Process is ineligible per the guidelines of the Talent Referral Program. Therefore these positions are not posted in the referral portal. However, you may contact the POCs below to submit your referral directly.|| TAX - Jeremy Carrine, Kelly Rath, Vicky Chang || Audit - Kristin Warren, Cristina Tomasko, Melinda Johnson || Advisory - Jason Cooper, Jennifer Cohen, Anadelia Rodriguez || Consulting - Amy Merrill, Erika Hartwyk, Lisa Twomey, Nicole Votsmier || Services - Erica Johnson||"],
+         "context": [""]
+         },
+         {"tag": "campus_internship_2",
+         "patterns": ["Am I eligible for the referral bonus for internship or campus referrals","are campus referrals eliigible for referral program"],
+         "responses": ["No, generally these referrals are ineligible for the referral program and only experienced hire positions are eligible for the referral program"],
+         "context": [""]
+         },
+         {"tag": "international_referrals_1",
+         "patterns": ["Is there a referral program to submit international referrals","international referrals","inter member firm referrals", "other Deloitte member firms","Other Member Firms"],
+         "responses": ["Currently there isn't a program or submission process for international (Non-US excluding India/US) referrals. Feel free to utilize your local member firm employee referral program where appropriate as well as direct potential candidates to the Deloitte.com careers website to search all open positions across the network."],
+         "context": [""]
+         }        
+   ]
+}
